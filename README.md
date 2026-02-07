@@ -50,6 +50,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
+import dmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmidrange@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dmskmidrange/tags). For example,
+
+```javascript
 import dmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmidrange@v0.1.1-deno/mod.js';
 ```
 
@@ -163,7 +168,7 @@ var v = dmskmidrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import dmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmidrange@v0.1.1-deno/mod.js';
+import dmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmidrange@deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
